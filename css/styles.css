@@ -1,0 +1,132 @@
+/* Общие стили */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196F3;
+  --white-color: #FFFFFF;
+}
+
+body {font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 3%;
+  color: var(--primary-text-color);
+  font-weight: 400;
+}
+
+a {text-decoration: none;
+  color: var(--title-text-color);
+}
+
+a:visited {color: var(--title-text-color);}
+
+.title {color: var(--title-text-color);}
+
+li {
+  list-style-type: none;
+}
+
+/* Стили хедера */
+
+.studio-logo {
+font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.studio-logo-accent {
+  color: var(--accent-color);
+}
+
+.nav-list{
+  font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 2%;
+}
+
+.link:hover {color: var(--accent-color);}
+.link:focus {color: var(--accent-color);}
+
+
+.contact {
+font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 2%;
+  color: var(--primary-text-color);
+}
+.contact:visited {color: var(--primary-text-color);}
+
+/* Стили мейна главной страницы */
+
+.hero-title {
+  font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    text-align: center;
+    letter-spacing: 6%;
+    text-transform: uppercase;
+    color: var(--white-color);
+    background-color: #212121;
+}
+
+.hero-button {
+  font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 6%;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+.features-title{
+  font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.text {font-size: 14px;
+  line-height: 1.17;}
+
+.section-title {
+  font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.team-title {
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+.team-text {
+  font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+/* Стили футера */
+
+footer > .studio-logo-footer {color: var(--white-color);}
+.studio-logo-footer:visited {color: var(--white-color);}
+
+footer {background-color: #2F303A;}
+
+.address-list-item {
+  font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--white-color);
+}
+
+.address-list-item > .address-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-list-item>.address-contact:visited {color: rgba(255, 255, 255, 0.6);}

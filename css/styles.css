@@ -42,9 +42,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-.link:hover {color: var(--accent-color);}
+.link:hover,
 .link:focus {color: var(--accent-color);}
-
 
 .contact {
   font-weight: 500;
@@ -80,14 +79,11 @@ body {
   cursor: pointer;
 }
 
-.hero-button:hover {
-  color: var(--accent-color);
-  background-color: var(--white-color);
-} 
+.hero-button:hover,
 .hero-button:focus {
   color: var(--accent-color);
   background-color: var(--white-color);
-}
+} 
 
 .features-title{
   font-weight: 700;
@@ -123,9 +119,11 @@ body {
 
 /* Стили футера */
 
-footer > .studio-logo-footer {color: var(--white-color);}
-.studio-logo-footer:visited {color: var(--white-color);}
-.studio-logo-footer:hover {color: var(--accent-color);}
+footer > .studio-logo-footer,
+.studio-logo-footer:visited
+{color: var(--white-color);}
+
+.studio-logo-footer:hover,
 .studio-logo-footer:focus {color: var(--accent-color);}
 
 footer {background-color: #2F303A;}
@@ -140,7 +138,7 @@ footer {background-color: #2F303A;}
 .address-list-item > .address-contact {color: rgba(255, 255, 255, 0.6);}
 .address-list-item > .address-contact:visited {color: rgba(255, 255, 255, 0.6);}
 
-.address-contact:hover {color: var(--white-color);}
+.address-contact:hover,
 .address-contact:focus {color: var(--white-color);}
 
 /* Стили для мейна страницы "Портфолио" */
@@ -154,8 +152,7 @@ footer {background-color: #2F303A;}
   cursor: pointer;
 }
 
-.filter:hover {color: var(--white-color);
-background-color: var(--accent-color);}
+.filter:hover,
 .filter:focus {color: var(--white-color);
 background-color: var(--accent-color);}
 
